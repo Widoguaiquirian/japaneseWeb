@@ -1,0 +1,119 @@
+/* ? *********** CONTACT ME FORM *********** */
+
+/* ? *********** BASE *********** */
+.form-contact {
+  margin-left: 50px;
+  padding: 20px 0;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 95px;
+}
+
+/* ? *********** NAME & EMAIL *********** */
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  padding: 7px;
+  border: 1px solid rgb(186, 189, 190);
+  width: 350px;
+}
+
+.form-row input[type="email"]:invalid {
+  border: 1px solid red;
+}
+
+.form-row label {
+  text-align: left;
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* ? *********** RADIO *********** */
+
+.radio-form-row {
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.radio-form-row legend {
+  float: left;
+  margin-right: 20px;
+  margin-left: 95px;
+}
+
+.radio-form-row label {
+  margin-right: 10px;
+}
+
+/* ? *********** TEXTAREA *********** */
+
+.form-row textarea {
+  width: 90%;
+  height: 120px;
+  max-height: 130px;
+  max-width: 410px;
+  border: 1px solid rgb(186, 189, 190);
+}
+
+.form-row .description {
+  color: rgba(0, 0, 0, 0.589);
+  font-size: 1.3rem;
+}
+
+.textarea-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+
+/* ? *********** BUTTON *********** */
+
+.form-row button {
+  width: 120px;
+  background-color: rgba(255, 0, 76, 0.904);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 0;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.form-row button:hover {
+  transform: scale(1.1);
+}
+
+/*--- Media Query ---*/
+@media (max-width: 600px) {
+  .form-contact {
+    margin-left: 0;
+  }
+
+  .form-row {
+    margin-left: 0;
+  }
+
+  .radio-form-row legend {
+    display: block;
+    margin-left: 0;
+  }
+
+  .form-row textarea {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-row button {
+    margin: 0 auto;
+  }
+}

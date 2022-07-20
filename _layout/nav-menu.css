@@ -1,0 +1,71 @@
+/*--- Navigation ---*/
+nav {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  grid-column: 1/-1;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.active {
+  height: 60px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+}
+
+nav.active a {
+  color: black;
+}
+
+nav.active .list-item :hover {
+  color: rgb(255, 0, 76);
+}
+
+nav.active .border-bottom::after {
+  background-color: rgb(255, 0, 76);
+}
+
+/* ? *********** ENCIERRA EL MENU Y EL LOGO *********** */
+.navigation-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/* ? *********** UL MENU *********** */
+.nav-list {
+  display: flex;
+  width: 85%;
+}
+
+.list-item {
+  font-size: 2rem;
+  margin-right: 3rem;
+  position: relative;
+}
+
+.list-item a {
+  color: white;
+  transition: all 0.3s;
+}
+
+.list-item a:hover {
+  color: yellow;
+}
+
+.border-bottom::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: yellow;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
