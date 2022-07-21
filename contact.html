@@ -1,154 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width" />
 
-    <title>CCS GRID LAYOUT</title>
+      <title>CCS GRID LAYOUT</title>
 
-    <!-- NORMALIZE-->
-    <link rel="stylesheet" href="_layout/normalize.css" />
+      <!-- NORMALIZE-->
+      <link rel="stylesheet" href="_layout/normalize.css" />
 
-    <!--CSS-->
-    <link rel="stylesheet" href="_layout/main.css" />
+      <!--CSS-->
+      <link rel="stylesheet" href="_layout/main.css" />
 
-    <!--PRINT-->
-    <!-- <link rel="stylesheet" href="" media="print"> -->
+      <!--FAVICON-->
+      <link rel="icon" href="_images/_icons/1favicon.ico" />
+      <link rel="icon" href="_images/_icons/1favicon.ico" type="image/svg+xml" />
 
-    <!--FAVICON-->
-    <link rel="icon" href="" />
-    <link rel="icon" href="" type="image/svg+xml" />
+      <meta name="author" content="Luis Guaiquirian" />
+      <meta
+         name="description"
+         content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
+      />
+      <meta name="keywords" content="Luis, Guaiquirian, Santiago web programmer, front-end developer" />
 
-    <meta name="author" content="Luis Guaiquirian" />
-    <meta
-      name="description"
-      content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
-    />
-    <meta name="keywords" content="Luis, Guaiquirian, Santiago web programmer, front-end developer" />
+      <!--GOOGLE FONTS - SANS PRO-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+         rel="stylesheet"
+      />
 
-    <!--GOOGLE FONTS - SANS PRO-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+      <!--FONT AWESOME-->
+      <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
 
-    <!--
-    Luis Guaiquirian CHILE.
-    V:3.0
-
-    Launched: XX-XX-2022
-  -->
-    <!--FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
-    <!-- ? FOR REGULAR COMMENTS -->
-  </head>
-  <body>
-    <nav class="">
-      <div class="navigation-container">
-        <div class="logo-box">
-          <img class="logo" src="_images/_logos/logo.png" alt="" />
-        </div>
-        <ul class="nav-list">
-          <li class="list-item"><a href="index.html">Home</a></li>
-          <li class="list-item">
-            <a href="about.html">About me</a>
-          </li>
-          <li class="list-item border-bottom">
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main>
-      <section class="grid-structure">
-        <div class="grid-hero">
-          <h1>Contact me.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-        </div>
-        <div class="grid-column-left">
-          <img class="img-shadow" src="_images/phone.jpg" alt="" />
-        </div>
-        <div class="grid-column-right">
-          <!-- ? THE FORM CONTACT -->
-          <form class="form-contact">
-            <!-- ? NAME & EMAIL -->
-            <div class="form-row">
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name" />
+      <!-- Luis Guaiquirian CHILE. V:3.0 -->
+   </head>
+   <body>
+      <nav class="">
+         <div class="navigation-container">
+            <div class="logo-box">
+               <img class="logo" src="_images/_logos/logo.png" alt="" />
             </div>
-            <div class="form-row">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" placeholder="John@doe.exa" />
+            <ul class="nav-list">
+               <li class="list-item"><a href="index.html">Home</a></li>
+               <li class="list-item">
+                  <a href="about.html">About me</a>
+               </li>
+               <li class="list-item border-bottom">
+                  <a href="contact.html">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+
+      <main>
+         <section class="grid-structure">
+            <div class="grid-hero">
+               <h1>Contact me.</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            </div>
+            <div class="grid-column-left">
+               <img class="img-shadow" src="_images/phone.jpg" alt="" />
+            </div>
+            <div class="grid-column-right">
+               <!-- ? THE FORM CONTACT -->
+               <form class="form-contact">
+                  <!-- ? NAME & EMAIL -->
+                  <div class="form-row">
+                     <label for="name">Name</label>
+                     <input type="text" name="name" id="name" />
+                  </div>
+                  <div class="form-row">
+                     <label for="email">Email</label>
+                     <input type="email" name="email" id="email" placeholder="John@doe.exa" />
+                  </div>
+
+                  <!-- ? ALLOW CONTACT -->
+                  <fieldset class="radio-form-row">
+                     <legend>Allow contact by email?</legend>
+                     <!-- ? FIRST OPTION - YES  -->
+                     <input type="radio" name="contact-validation" id="contact-validation-1" value="yes" />
+                     <label for="contact-validation-1" class="radio-label">Yes</label>
+                     <!-- ? SECOND OPTION - NO -->
+                     <input type="radio" name="contact-validation" id="contact-validation-2" value="no" />
+                     <label for="contact-validation-2" class="radio-label">No</label>
+                  </fieldset>
+
+                  <!-- ? MESSAGE TEXTAREA -->
+                  <div class="form-row textarea-box">
+                     <label for="message"></label>
+                     <textarea name="message" id="message" placeholder="Your message here please."></textarea>
+                     <div class="description">Let us know what you think</div>
+                  </div>
+
+                  <!-- ? SEND BUTTON -->
+
+                  <div class="form-row">
+                     <button>Send Info</button>
+                  </div>
+               </form>
+            </div>
+         </section>
+      </main>
+
+      <footer>
+         <div class="footer-content center-container">
+            <div class="social-links">
+               <h4>Follow me!</h4>
+               <ul class="social-list">
+                  <li class="social-item">
+                     <a href="#" class="social-link">
+                        <i class="icon fab fa-facebook-f"></i>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a href="#" class="social-link">
+                        <i class="icon fab fa-instagram"></i>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a href="#" class="social-link">
+                        <i class="icon fab fa-twitter"></i>
+                     </a>
+                  </li>
+               </ul>
             </div>
 
-            <!-- ? ALLOW CONTACT -->
-            <fieldset class="radio-form-row">
-              <legend>Allow contact by email?</legend>
-              <!-- ? FIRST OPTION - YES  -->
-              <input type="radio" name="contact-validation" id="contact-validation-1" value="yes" />
-              <label for="contact-validation-1" class="radio-label">Yes</label>
-              <!-- ? SECOND OPTION - NO -->
-              <input type="radio" name="contact-validation" id="contact-validation-2" value="no" />
-              <label for="contact-validation-2" class="radio-label">No</label>
-            </fieldset>
+            <p class="footer-text">
+               A simple guy from Santiago de Chile, learning about how to coding with many dreams to achieve and lessons
+               to learn.
+            </p>
 
-            <!-- ? MESSAGE TEXTAREA -->
-            <div class="form-row textarea-box">
-              <label for="message"></label>
-              <textarea name="message" id="message" placeholder="Your message here please."></textarea>
-              <div class="description">Let us know what you think</div>
-            </div>
+            <p class="footer-fineprint">
+               Made with
+               <i class="fas fa-heart"></i>
+               by
+               <a href="https://github.com/Widoguaiquirian" target="_blank">Luis Guaiquirian</a>
+            </p>
+         </div>
+      </footer>
 
-            <!-- ? SEND BUTTON -->
-
-            <div class="form-row">
-              <button>Send Info</button>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-content center-container">
-        <div class="social-links">
-          <h4>Follow me!</h4>
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <i class="icon fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <i class="icon fab fa-instagram"></i>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <i class="icon fab fa-twitter"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <p class="footer-text">
-          A simple guy from Santiago de Chile, learning about how to coding with many dreams to achieve and lessons to
-          learn.
-        </p>
-
-        <p class="footer-fineprint">
-          Made with
-          <i class="fas fa-heart"></i>
-          by
-          <a href="https://github.com/Widoguaiquirian" target="_blank">Luis Guaiquirian</a>
-        </p>
-      </div>
-    </footer>
-
-    <script src="_layout/script.js"></script>
-  </body>
+      <script src="_layout/script.js"></script>
+   </body>
 </html>

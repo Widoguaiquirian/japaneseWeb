@@ -1,144 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width" />
 
-    <title>CCS GRID LAYOUT</title>
+      <title>CCS GRID LAYOUT</title>
 
-    <!-- NORMALIZE-->
-    <link rel="stylesheet" href="_layout/normalize.css" />
+      <!-- NORMALIZE-->
+      <link rel="stylesheet" href="_layout/normalize.css" />
 
-    <!--CSS-->
-    <link rel="stylesheet" href="_layout/main.css" />
+      <!--CSS-->
+      <link rel="stylesheet" href="_layout/main.css" />
 
-    <!--PRINT-->
-    <!-- <link rel="stylesheet" href="" media="print"> -->
+      <!--FAVICON-->
+      <link rel="icon" href="_images/_icons/1favicon.ico" />
+      <link rel="icon" href="_images/_icons/1favicon.ico" type="image/svg+xml" />
 
-    <!--FAVICON-->
-    <link rel="icon" href="" />
-    <link rel="icon" href="" type="image/svg+xml" />
+      <meta name="author" content="Luis Guaiquirian" />
+      <meta
+         name="description"
+         content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
+      />
+      <meta name="keywords" content="Luis, Guaiquirian, Santiago web programmer, front-end developer" />
 
-    <meta name="author" content="Luis Guaiquirian" />
-    <meta
-      name="description"
-      content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
-    />
-    <meta name="keywords" content="Luis, Guaiquirian, Santiago web programmer, front-end developer" />
+      <!--GOOGLE FONTS - SANS PRO-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+         rel="stylesheet"
+      />
 
-    <!--GOOGLE FONTS - SANS PRO-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+      <!--FONT AWESOME-->
+      <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
 
-    <!--
-    Luis Guaiquirian CHILE.
-    V:3.0
+      <!-- Luis Guaiquirian CHILE. V:3.0 -->
+   </head>
+   <body>
+      <nav class="">
+         <div class="navigation-container">
+            <div class="logo-box">
+               <img class="logo" src="_images/_logos/logo.png" alt="" />
+            </div>
+            <ul class="nav-list">
+               <li class="list-item"><a href="index.html">Home</a></li>
+               <li class="list-item border-bottom">
+                  <a href="about.html">About me</a>
+               </li>
+               <li class="list-item"><a href="contact.html">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
 
-    Launched: XX-XX-2022
-  -->
-    <!--FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
+      <main>
+         <section class="grid-structure">
+            <div class="grid-hero">
+               <h1>About me.</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloremque.</p>
+            </div>
+            <div class="grid-column-left">
+               <img class="img-shadow" src="_images/me.jpg" alt="" />
+            </div>
+            <div class="grid-column-right">
+               <div class="text-column">
+                  <h3 class="third-title">Lorem ipsum dolor sit.</h3>
+                  <p class="regular-text">
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque harum eos perferendis
+                     <strong>laboriosam. Id perspiciatis</strong>
+                     animi magnam itaque ea distinctio facilis maxime aspernatur blanditiis dignissimos?
+                  </p>
+                  <p class="regular-text">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat sed possimus ut distinctio
+                     <strong>quod consectetur.</strong>
+                  </p>
+                  <h3 class="third-title">Adipisicing elit.</h3>
+                  <p class="regular-text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque nisi culpa consequuntur.
+                     In aliquam fugit qui magnam itaque vel error ad nesciunt
+                     <strong>eveniet, ullam quasi tempora illo modi,</strong>
+                     eum voluptates facilis at blanditiis porro dolor.
+                  </p>
+                  <p class="regular-text">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quo, accusantium perferendis sunt
+                     distinctio nulla aliquid. Quo rerum fugiat voluptates, dignissimos distinctio laudantium.
+                  </p>
+                  <p class="regular-text">
+                     Lorem ipsum dolor sit amet consectetur
+                     <strong>adipisicing elit. Consectetur excepturi molestias sunt!</strong>
+                  </p>
+               </div>
+            </div>
+         </section>
+      </main>
 
-    <!-- ? FOR REGULAR COMMENTS -->
-  </head>
-  <body>
-    <nav class="">
-      <div class="navigation-container">
-        <div class="logo-box">
-          <img class="logo" src="_images/_logos/logo.png" alt="" />
-        </div>
-        <ul class="nav-list">
-          <li class="list-item"><a href="index.html">Home</a></li>
-          <li class="list-item border-bottom">
-            <a href="about.html">About me</a>
-          </li>
-          <li class="list-item"><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+      <footer>
+         <div class="footer-content center-container">
+            <div class="social-links">
+               <h4>Follow me!</h4>
+               <ul class="social-list">
+                  <li class="social-item">
+                     <a href="#" class="social-link">
+                        <i class="icon fab fa-facebook-f"></i>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a href="#" class="social-link">
+                        <i class="icon fab fa-instagram"></i>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a href="#" class="social-link">
+                        <i class="icon fab fa-twitter"></i>
+                     </a>
+                  </li>
+               </ul>
+            </div>
 
-    <main>
-      <section class="grid-structure">
-        <div class="grid-hero">
-          <h1>About me.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloremque.</p>
-        </div>
-        <div class="grid-column-left">
-          <img class="img-shadow" src="_images/me.jpg" alt="" />
-        </div>
-        <div class="grid-column-right">
-          <div class="text-column">
-            <h3 class="third-title">Lorem ipsum dolor sit.</h3>
-            <p class="regular-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque harum eos perferendis
-              <strong>laboriosam. Id perspiciatis</strong>
-              animi magnam itaque ea distinctio facilis maxime aspernatur blanditiis dignissimos?
+            <p class="footer-text">
+               A simple guy from Santiago de Chile, learning about how to coding with many dreams to achieve and lessons
+               to learn.
             </p>
-            <p class="regular-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat sed possimus ut distinctio
-              <strong>quod consectetur.</strong>
-            </p>
-            <h3 class="third-title">Adipisicing elit.</h3>
-            <p class="regular-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque nisi culpa consequuntur. In
-              aliquam fugit qui magnam itaque vel error ad nesciunt
-              <strong>eveniet, ullam quasi tempora illo modi,</strong>
-              eum voluptates facilis at blanditiis porro dolor.
-            </p>
-            <p class="regular-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quo, accusantium perferendis sunt distinctio
-              nulla aliquid. Quo rerum fugiat voluptates, dignissimos distinctio laudantium.
-            </p>
-            <p class="regular-text">
-              Lorem ipsum dolor sit amet consectetur
-              <strong>adipisicing elit. Consectetur excepturi molestias sunt!</strong>
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
 
-    <footer>
-      <div class="footer-content center-container">
-        <div class="social-links">
-          <h4>Follow me!</h4>
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <i class="icon fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <i class="icon fab fa-instagram"></i>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <i class="icon fab fa-twitter"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+            <p class="footer-fineprint">
+               Made with
+               <i class="fas fa-heart"></i>
+               by
+               <a href="https://github.com/Widoguaiquirian" target="_blank">Luis Guaiquirian</a>
+            </p>
+         </div>
+      </footer>
 
-        <p class="footer-text">
-          A simple guy from Santiago de Chile, learning about how to coding with many dreams to achieve and lessons to
-          learn.
-        </p>
-
-        <p class="footer-fineprint">
-          Made with
-          <i class="fas fa-heart"></i>
-          by
-          <a href="https://github.com/Widoguaiquirian" target="_blank">Luis Guaiquirian</a>
-        </p>
-      </div>
-    </footer>
-
-    <script src="_layout/script.js"></script>
-  </body>
+      <script src="_layout/script.js"></script>
+   </body>
 </html>
